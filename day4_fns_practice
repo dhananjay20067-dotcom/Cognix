@@ -1,0 +1,99 @@
+#1
+# def greet(DSK):
+#     print("Hello")
+
+# greet("DSK")
+
+# #2
+# def greet_person(name):
+#     print("Hello", name)
+        
+# greet_person("DSK")
+
+# #3
+# def add (a, b):
+#     return a + b
+
+# result = add(8, 9)
+# print(result)
+
+#4
+# def calculate_area(width, length):
+#     area = length * width 
+#     return area
+
+# rect_1 = calculate_area(8, 10)
+# print(rect_1)
+
+#5
+# Write a function that takes a number and returns its square
+# def square(num):
+#     return num * num
+
+# print(square(5))
+# print(square(25))
+
+#6
+# def print_college():
+#     print("PES Modern")
+
+# print_college() 
+
+# #7
+# def print_nine_times():
+#     for i in range(9):
+#         print("I love learning python")
+
+# print_nine_times()
+
+# #8
+# def print_one_to_ten():
+#     for i in range(1, 11):
+#         print(i)
+
+# print_one_to_ten()
+
+#9
+# def print_quote():
+#     print("The best way to predict the future is to invent it. - Alan Kay") 
+#     pass
+
+# print_quote()
+
+##CHALLENGE
+#1
+# def check_number(num):
+#     if num > 0:
+#         return "Positive"
+#     elif num < 0:
+#         return "Negative"
+#     else:
+#         return "Zero"
+# print(check_number(10))
+
+#2
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result = result * i
+    return result
+
+#3
+def count_vowels(zomato):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in zomato: # Iterate through each character in the 'zomato' string
+        if char in vowels: # Check if the current character is a vowel
+            count += 1
+    return count
+
+#5
+def reverse_string(text):
+    return text[::-1]
+
+
+
+    
+    
+        
+
